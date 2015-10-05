@@ -284,9 +284,7 @@ class JAuthentication extends JObject
 
 			// If authentication is canceled break out of the loop
 			if ($response->status === self::STATUS_CANCEL)
-			{
 				break;
-			}
 
 			// If authentication is successful break out of the loop
 			if ($response->status === self::STATUS_SUCCESS)
